@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="/moran_jr.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos Moran</title>
+    <script type="module" crossorigin src="/assets/index-DebuTiJa.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CxVCN_9t.css">
+  </head>
+  <body>
+    <style>
+      .logo {
+        font-size: 20px;
+        background: linear-gradient(to right, #FFA500 0%, #008000 33.33%, #00AACC 66.66%, #FFA500 100%);
+        background-size: 300% 100%;
+        background-position: 100% 0;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: changeColor 15s infinite linear;
+      }
+
+      @keyframes changeColor {
+        0%, 33.33% {
+          background-position: 100% 0; /* Inicia con el primer color (naranja) */
+        }
+        33.33%, 66.66% {
+          background-position: 0% 0; /* Cambia al segundo color (verde) desde la derecha */
+        }
+        66.66%, 100% {
+          background-position: -100% 0; /* Cambia al tercer color (celeste) desde la derecha */
+        }
+      }
+      .card-img{
+        height: 250px;
+      }
+      .inicio-header{
+        min-height: 400px;
+        background-image: url(https://res.cloudinary.com/druihtuyt/image/upload/v1710188009/Eventos/Img-general/un-we.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+      
+      .color-nosotros{
+        background-color: #0F0F0F;
+      }
+      .azulOS{
+        background-color: #080cf986;
+      }
+      .verdeOS{
+        background-color: #f9740886;
+      }
+    </style>
+    <div id="root"></div>
+  </body>
+</html>

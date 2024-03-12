@@ -1,0 +1,20 @@
+
+Django
+djangorestframework
+django-cors-headers
+coreapi
+
+# Dependencias de cloudinary (Back-end)
+# pip install django_cloudinary_storage
+# django-cloudinary-storage
+
+# npm i react-router-dom react-hot-toast axios react-hook-form
+# Dependencias de JavaScript (Front-end)
+# react-router-dom
+# react-hot-toast
+# axios
+# react-hook-form
+
+# npm install -D tailwindcss postcss autoprefixer
+# npx tailwindcss init -p
+
